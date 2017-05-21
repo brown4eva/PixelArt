@@ -27,9 +27,9 @@ Give an example
 * **Meldrick Reimmer**
 
 ## Supervisor
-* Yohan Fugerolle 
+* **Yohan Fugerolle** 
 
 ## Acknowledgments
 * My supervisor for helping out during class sections and providing his approaches in solving certain issues. 
 
-* Khoi Pham (Class colleague)for helping out when i go stack in the pixelization part and assisting me in the art transform. 
+* **Khoi Pham** (Class colleague)for helping out when i go stack in the pixelization part and assisting me in the art transform. 
