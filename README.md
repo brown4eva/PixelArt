@@ -4,11 +4,17 @@ For my final project in Computer Science, I am to propose and implement a C++ us
 
 ## Getting Started
 
-I started by followingthese steps:
+I started by performing these goals:
   * Create an interface for the user to interact 
   * Load and Display an image.
   *	Find the average color value of each pixel block of my loaded image and display the results which will be my results for the “Pixelized Image”
   * Save the “Pixelized Image”
+  * Load multiple sample images
+  *	Access the sample images and calculate the mean of each.
+  *	Compare the mean of the each pixel of the second image (Pixelized Image) to these sample images. 
+  * Replace the pixel block by the best image found from the sample images and paint it on the position of the pixel block
+  *	Display the new image which will be the results for the “Art Transform Image”
+
 
 
 
