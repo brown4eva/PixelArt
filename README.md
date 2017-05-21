@@ -5,6 +5,11 @@ For my final project in Computer Science, I am to propose and implement a C++ us
 ## Getting Started
 
 I started by followingthese steps:
+  * Create an interface for the user to interact 
+  * Load and Display an image.
+  *	Find the average color value of each pixel block of my loaded image and display the results which will be my results for the “Pixelized Image”
+  * Save the “Pixelized Image”
+
 
 
 ## Running the tests
