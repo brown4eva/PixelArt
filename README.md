@@ -22,29 +22,14 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-
 ## Author
 
 * **Meldrick Reimmer**
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## Supervisor
 Yohan Fugerolle 
 
 ## Acknowledgments
-*My supervisor for helping out during class sections and providing his approaches in solving certain issues. 
+* My supervisor for helping out during class sections and providing his approaches in solving certain issues. 
 
 * Khoi Pham (Class colleague)for helping out when i go stack in the pixelization part and assisting me in the art transform. 
