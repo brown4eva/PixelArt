@@ -27,7 +27,7 @@ Give an example
 * **Meldrick Reimmer**
 
 ## Supervisor
-Yohan Fugerolle 
+* Yohan Fugerolle 
 
 ## Acknowledgments
 * My supervisor for helping out during class sections and providing his approaches in solving certain issues. 
