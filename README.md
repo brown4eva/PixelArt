@@ -15,6 +15,9 @@ I started by performing these goals:
   * Replace the pixel block by the best image found from the sample images and paint it on the position of the pixel block
   *	Display the new image which will be the results for the “Art Transform Image”
 
+## Project Management
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
 
