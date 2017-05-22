@@ -17,8 +17,7 @@ I started by performing these goals:
 
 ## Project Management
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
+You can check on how i organised my self in achcieveing each goal on my trello account here. [Project.Management](https://trello.com/b/Ml2bwbAE/pixel-art-rendering-project) 
 
 
 ## Implementation
