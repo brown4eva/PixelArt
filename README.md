@@ -18,17 +18,11 @@ I started by performing these goals:
 
 
 
-## Running the tests
+## Implementation
 
-Each goal i acheved i took a picture of the results you can view this in the pictures folder on this repository.
+Each goal i acheved i took a picture of the results you can view this in the pictures folder on this repository and also you will find availble my source code as well. 
 
-### Break down into end to end tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Author
 
