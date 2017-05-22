@@ -20,7 +20,7 @@ I started by performing these goals:
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Each goal i acheved i took a picture of the results you can view this in the pictures folder on this repository.
 
 ### Break down into end to end tests
 
