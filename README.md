@@ -20,7 +20,9 @@ I started by performing these goals:
 
 ## Implementation
 
-Each goal i acheved i took a picture of the results you can view this in the pictures folder on this repository and also you will find availble my source code as well. 
+* Each goal i acheved i took a picture of the results you can view this in the pictures folder on this repository.
+
+* You will find availble my source code as well. 
 
 
 
