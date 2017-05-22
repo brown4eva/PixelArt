@@ -17,7 +17,7 @@ I started by performing these goals:
 
 ## Project Management
 
-You can check on how i organised my self in achcieveing each goal on my trello account here. [Project.Management](https://trello.com/b/Ml2bwbAE/pixel-art-rendering-project) i used it to heloing me set goal and to recall me on my progress in each step. 
+You can check on how i organised my self in achcieveing each goal on my trello account here. [Project Management](https://trello.com/b/Ml2bwbAE/pixel-art-rendering-project) i used it to heloing me set goal and to recall me on my progress in each step. 
 
 
 ## Implementation
@@ -38,4 +38,4 @@ You can check on how i organised my self in achcieveing each goal on my trello a
 ## Acknowledgments
 * My supervisor for helping out during class sections and providing his approaches in solving certain issues. 
 
-* **Khoi Pham** (Class colleague) for helping out when i go stack in the pixelization part and assisting me in the art transform. 
+* **Khoi Pham** (Class colleague) for helping out when i go stack in the pixelization part and assisting me in the art transform and also **Selma Boudissa** sat by me during class and we basically started this project together. 
