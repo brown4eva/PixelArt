@@ -33,7 +33,7 @@ You can check on how i organised my self in achcieveing each goal on my trello a
 * **Meldrick Reimmer**
 
 ## Supervisor
-* **Yohan Fugerolle** 
+* **Mr.Yohan Fougerolle** 
 
 ## Acknowledgments
 * My supervisor for helping out during class sections and providing his approaches in solving certain issues. 
