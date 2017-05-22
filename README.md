@@ -17,7 +17,7 @@ I started by performing these goals:
 
 ## Project Management
 
-You can check on how i organised my self in achcieveing each goal on my trello account here. [Project Management](https://trello.com/b/Ml2bwbAE/pixel-art-rendering-project) i used it to heloing me set goal and to recall me on my progress in each step. 
+You can check on how i organised my self in achcieveing each goal on my trello account here. [Project Management](https://trello.com/b/Ml2bwbAE/pixel-art-rendering-project) i used it to helping me set goal and to recall me on my progress in each step. 
 
 
 ## Implementation
