@@ -26,6 +26,8 @@ You can check on how i organised my self in achcieveing each goal on my trello a
 
 * You will find availble my source code as well. 
 
+* Read my report to get a better undertanding on this project and how each line of codewas constructed to perform the task needed. 
+
 
 
 ## Author
