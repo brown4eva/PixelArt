@@ -19,52 +19,53 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-//load single image function
+//Loading and Displaying function
 void MainWindow::on_pushButton_clicked()
 {
     QString myimagelink = QFileDialog::getOpenFileName(
                 this,
                 "Open a file",
-                "d:\\CProject/PixelArt",
+                "",
                 "Images (*.png *.gif *.jpeg *.jpg)");
 
-    //Save
-    //pimg = new QImage (myimagelink);
-
+    //Shows the path of my loaded image.
     ui->FilePathLabel->setText(myimagelink);
 
+    // create a pixmap using image url above
     pixmap = new QPixmap(myimagelink);
 
+    // I worked on this part with my classmate Selma Boudissa
+    // convert QPixmap to QImage
     pimg = pixmap->toImage();
 
     //Setting the picture to display the required size of the image
-
     int w, h;
-    w=ui->DrawingLabel->width();
-    h=ui->DrawingLabel->height();
+    w = ui->DrawingLabel->width();
+    h = ui->DrawingLabel->height();
 
-    //scale the picture and load it on the drawinglabel
+    //Scale the picture and load it on the drawinglabel
     ui->DrawingLabel->setPixmap(pixmap->scaled(w,h, Qt::KeepAspectRatio));
     
 }
 
+//Saving an image
 void MainWindow::on_pushButton_2_clicked()
 {
-    //this save button will save the pixelized image, not the transform art image
-    //since I used label to display several multiple image then I can't save the whole image
-    pimg.save(" ");
+    // get the url of the file and folder when user click save in QFileDialog and use it to save the image
+    QString saveurl = QFileDialog::getSaveFileName(this, tr(""),"",tr("Images (*.png *.jpeg *.jpg)"));
+    pimg.save(saveurl);
 }
 
-//Having assitance from Khoi I was able to find the average of the picture and extract its color to replace it with new color.
+//Having assitance from Khoi Pham I was able to find the average of the picture and extract its color to replace it with new color.
 void MainWindow::on_pushButton_3_clicked()
 {
     //Loop to divide the image into smaller region.
-    for(int i = 0; i < pimg.width(); i += size)
-        for(int j = 0; j < pimg.height(); j += size){
+    for(int i = 0; i < pimg.width(); i += size)             // this loop will shift the window vertically
+        for(int j = 0; j < pimg.height(); j += size){       // this loop will shift the window horizontally
 
             int r=0,g=0,b=0,a=0;
 
-            //A loop to go through every pixels of the each cube
+            //A loop to go through every pixels of the each window
             for(int k = 0; k < size; ++k)
                 for(int l = 0; l < size; ++l){
                     // stopping criterion
@@ -84,7 +85,7 @@ void MainWindow::on_pushButton_3_clicked()
             // combine 4 channels into QRgb data type
             QRgb meanColor = qRgba(r,g,b,a);
 
-            // replacing the pixel of the cube by the new color extracted
+            // replacing the pixel of the window by the new color extracted
             for(int k = 0; k < size; ++k)
                 for(int l = 0; l < size; ++l)
 
@@ -113,14 +114,15 @@ void MainWindow::on_pushButton_4_clicked()
     QStringList myimagelinks = QFileDialog::getOpenFileNames(
                 this,
                 "Open a file",
-                "d:\\CProject/PixelArt",
+                "",
                 "Images (*.png *.gif *.jpeg *.jpg)");
 
 
     //store sample images in sampleimages attribute
     for(int i=0; i<myimagelinks.length(); i++){
         QImage tempimage(myimagelinks[i]);
-        sampleimages.append(tempimage);//
+
+        sampleimages.append(tempimage);   // store the created image in the vector to use in next function
     }
 
     //loop through sample image list and calculate mean colors
@@ -154,7 +156,7 @@ void MainWindow::on_pushButton_4_clicked()
 
 }
 
-//art transform function
+//Art transform function
 void MainWindow::on_pushButton_5_clicked()
 {
     //here I reuse the same function as I created to do pixelizing
@@ -167,7 +169,7 @@ void MainWindow::on_pushButton_5_clicked()
 
             int r=0,g=0,b=0,a=0,sumcolor;
 
-            //A loop to go through every pixels of the each cube
+            //A loop to go through every pixels of the each window
             for(int k = 0; k < size; ++k)
                 for(int l = 0; l < size; ++l){
                     //stopping criterion
@@ -184,6 +186,7 @@ void MainWindow::on_pushButton_5_clicked()
             //calculate the mean color value of every channels
             r /= size*size; g /= size*size; b /= size*size; a /= size*size;
 
+
             //sum color to do color comparision below
             sumcolor = r+g+b+a;
 
@@ -197,7 +200,7 @@ void MainWindow::on_pushButton_5_clicked()
                 //color value comparision to choose best match color
                 if(abs(sumcolor-*it) < initoffset){
                     initoffset = abs(sumcolor-*it);     //i used abs to neglect the minus number cases
-                    bestcolorindex = it-samplecolors.begin();
+                    bestcolorindex = it-samplecolors.begin();   // get the position of the best color
                 }
             }
 
@@ -205,7 +208,7 @@ void MainWindow::on_pushButton_5_clicked()
 
             //create label to store this matched picture, on the same
             //location of the pixel block
-            pixelimage->setGeometry(QRect(i,j,size,size));
+            pixelimage->setGeometry(QRect(i,j,size,size)); // The label to be in the right place.
             pixelimage->setPixmap(QPixmap::fromImage(sampleimages[bestcolorindex]).scaled(QSize(size,size)));
             pixelimage->show();
 
