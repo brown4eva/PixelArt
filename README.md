@@ -2,7 +2,7 @@
 
 For my final project in Computer Science, I am to propose and implement a C++ using Qt, an application which is related to color manipulations. I am to create a program where by an image could be loaded and displayed from any part of my hard-drive and my program should be able to get a second image from the loaded image such that the pixel color of the second image is computed using an average method and the results is displayed as a Pixelized Image. After getting my Pixelized image, I am to get a third image from it where its “big and blurred” pixels will now be represented by a set of images in which I choose from my hard-drive and display the results as my Art Transform Image. 
 
-## Getting Started
+## Objectives
 
 I started by performing these goals:
   * Create an interface for the user to interact 
