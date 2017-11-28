@@ -22,7 +22,7 @@ You can check on how i organised my self in achcieveing each goal on my trello a
 
 ## Implementation
 
-* Each goal i acheved i took a picture of the results you can view this in the pictures folder on this repository.
+* Each goal i achieved,i took a picture of the results you can view this in the pictures folder on this repository.
 
 * You will find availble my source code as well. 
 
@@ -39,5 +39,3 @@ You can check on how i organised my self in achcieveing each goal on my trello a
 
 ## Acknowledgments
 * My supervisor for helping out during class sections and providing his approaches in solving certain issues. 
-
-* **Khoi Pham** (Class colleague) for helping out when i go stack in the pixelization part and assisting me in the art transform and also **Selma Boudissa** who i sat by during class and we basically started this project together. 
