@@ -17,12 +17,12 @@ I started by performing these goals:
 
 ## Project Management
 
-You can check on how i organised my self in achcieveing each goal on my trello account here. [Project Management](https://trello.com/b/Ml2bwbAE/pixel-art-rendering-project) I used it to helping me set goal and to recall me on my progress in each step. 
+You can check on how I organised my self in achcieveing each goal on my trello account here. [Project Management](https://trello.com/b/Ml2bwbAE/pixel-art-rendering-project) I used it to helping me set goal and to recall me on my progress in each step. 
 
 
 ## Implementation
 
-* Each goal i achieved,i took a picture of the results you can view this in the pictures folder on this repository.
+* Each goal I achieved, the results can be seen in the <\ pictures folder /> .
 
 * You will find availble my source code as well. 
 
